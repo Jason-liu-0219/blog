@@ -48,6 +48,7 @@ const blogTheme = getThemeConfig({
   // 文章默认作者
   author: 'Jason',
 
+
   // 友链
   // friend: [
   //   {
@@ -93,6 +94,55 @@ const blogTheme = getThemeConfig({
   //   ],
   //   duration: 0
   // },
+
+  hotArticle: {
+    title: '🔥 文章',
+    nextText: '下一頁',
+    pageSize: 9,
+    empty: '暫無精選內容'
+  },
+
+  homeTags: {
+    title: '文章標籤'
+  },
+
+  article: {
+    /**
+     * 是否展示文章的预计阅读时间
+     */
+    readingTime: true,
+    /**
+     * 是否隐藏文章页的封面展示
+     */
+    hiddenCover: false,
+    /**
+     * 阅读时间分析展示位置
+     */
+    readingTimePosition: 'inline',
+    /**
+     * 自定义一系列文案标题
+     */
+    analyzeTitles: {
+      inlineWordCount: '{{value}} 個字',
+      inlineReadTime: '{{value}} 分鐘',
+      // wordCount: 'Total word count',
+      // readTime: 'Total read time',
+      // author: 'Author',
+      // publishDate: 'Published on',
+      // lastUpdated: 'Last updated on',
+      // tag: 'Tags',
+    }
+  },
+
+  recommend: {
+    title: '🔍 相關文章',
+    nextText: '下一頁',
+    pageSize: 9,
+    empty: '暫無相關文章',
+    style: 'sidebar',
+    sort: 'date'
+  }
+
 })
 
 export { blogTheme }

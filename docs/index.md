@@ -2,8 +2,11 @@
 layout: home
 # 首页部分元素定制
 blog:
- name: 'Jason'
- motto: 紀錄學習的點點滴滴
+ analysis: 
+   articles: 
+    title: ['文章', '月更新', '周更新']
+ name: '傑森'
+ motto: 前端/後端/雲端
  inspiring:
   - Front-End Developer
   - Back-End Developer

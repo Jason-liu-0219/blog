@@ -10,4 +10,14 @@
     background-image: url('');
     background-size: cover;
   }
+
+  .blog-author img{
+    object-fit: cover;
+    object-position: left;
+  }
+}
+
+.VPImage.logo{
+  object-fit: cover;
+  object-position: left;
 }

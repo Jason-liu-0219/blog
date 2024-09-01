@@ -17,8 +17,8 @@ export default defineConfig({
   extends: blogTheme,
   base,
   lang: 'zh-cn',
-  title: 'Jason Blog',
-  description: '紀錄學習的點點滴滴',
+  title: '傑森部落格',
+  description: '前端(Vue),後端(Node.js),雲端(Aws)學習筆記',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
@@ -30,15 +30,15 @@ export default defineConfig({
     // 展示 2,3 级标题在目录中
     outline: {
       level: [2, 3],
-      label: '目录'
+      label: '目錄'
     },
     // 默认文案修改
-    returnToTopLabel: '回到顶部',
-    sidebarMenuLabel: '相关文章',
-    lastUpdatedText: '上次更新于',
+    returnToTopLabel: '回到最上方',
+    sidebarMenuLabel: '相關文章',
+    lastUpdatedText: '上次更新於',
 
     // 设置logo
-    logo: '/logo.png',
+    logo: '/avatar.jpg',
     // editLink: {
     //   pattern:
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
