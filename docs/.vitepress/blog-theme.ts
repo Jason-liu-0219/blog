@@ -125,15 +125,24 @@ const blogTheme = getThemeConfig({
     analyzeTitles: {
       inlineWordCount: '{{value}} 個字',
       inlineReadTime: '{{value}} 分鐘',
-      // wordCount: 'Total word count',
+      topReadTime:'{{value}} 分鐘',
+      lastUpdated: '最後更新於',
+      wordCount: '預計閱讀時間',
       // readTime: 'Total read time',
       // author: 'Author',
       // publishDate: 'Published on',
       // lastUpdated: 'Last updated on',
       // tag: 'Tags',
-    }
+    },
   },
-
+  formatShowDate: {
+    justNow:"剛剛",
+    secondsAgo: '秒前',
+    minutesAgo: '分鐘前',
+    hoursAgo: '小時前',
+    daysAgo: '天前',
+    weeksAgo: '周前',
+  },
   recommend: {
     title: '🔍 相關文章',
     nextText: '下一頁',
