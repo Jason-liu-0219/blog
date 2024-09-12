@@ -52,6 +52,7 @@ export default defineConfig({
         icon: 'github',
         link: ''
       }
-    ]
+    ],
+    googleAnalyticsId:'G-JLVF9F9YYC'
   }
 })
