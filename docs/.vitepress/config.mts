@@ -49,7 +49,7 @@ export default defineConfig({
       {
         text: '網頁前端', items: [
           {
-            text: '實作篇', link: '/frontend/text.html' ,
+            text: '實作篇', link: '/frontend/canvasBar.html' ,
           },
           // {
           //   text: 'Canvas', link: '/frontend/canvas.html'

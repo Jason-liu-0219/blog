@@ -1,5 +1,5 @@
 ---
-sticky: 2
+sticky: 1
 ---
 # 如何在 HTML 輸入框中實現自動跳轉與自動加 Dash 功能
 
@@ -103,7 +103,7 @@ function autoToNextInput(event, index) {
 ### 方法二：單一輸入框自動添加 Dash
 此方法會自動在使用者輸入 4 個字符後插入一個 Dash（-）。無論使用者是手動輸入還是複製粘貼，都會正確格式化輸入。
 
-```
+```javascript
 const autoDashInputDom = document.querySelector('#auto-dash');
 autoDashInputDom.addEventListener('keydown', dashValidate);
 autoDashInputDom.addEventListener('keyup', replaceValue);
