@@ -45,7 +45,17 @@ export default defineConfig({
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [
-      { text: '首頁', link: '/' }
+      { text: '首頁', link: '/' },
+      {
+        text: '網頁前端', items: [
+          {
+            text: '實作篇', link: '/frontend/text.html' ,
+          },
+          // {
+          //   text: 'Canvas', link: '/frontend/canvas.html'
+          // }
+        ]
+      },
     ],
     socialLinks: [
       {

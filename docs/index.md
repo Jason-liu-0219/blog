@@ -6,6 +6,7 @@ blog:
    articles: 
     title: ['文章', '月更新', '周更新']
  name: '傑森'
+ minScreenAvatar: false
  motto: 前端/後端/雲端
  inspiring:
   - Front-End Developer
