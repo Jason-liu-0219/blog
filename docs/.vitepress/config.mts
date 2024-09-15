@@ -51,9 +51,9 @@ export default defineConfig({
           {
             text: '實作篇', link: '/frontend/canvasBar.html' ,
           },
-          // {
-          //   text: 'Canvas', link: '/frontend/canvas.html'
-          // }
+          {
+            text: 'Canvas', link: '/frontend/canvas/01.html'
+          }
         ]
       },
     ],
