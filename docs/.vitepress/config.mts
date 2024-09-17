@@ -53,6 +53,9 @@ export default defineConfig({
           },
           {
             text: 'Canvas', link: '/frontend/canvas/01.html'
+          },
+          {
+            text: 'Cypress', link: '/frontend/cypress/01.html'
           }
         ]
       },
