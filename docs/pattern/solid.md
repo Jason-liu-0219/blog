@@ -270,3 +270,6 @@ const emailService = new EmailService();
 const notification = new Notification(emailService);
 notification.notify("Welcome!");
 ```
+
+## 總結
+SOLID 原則提供了一組指導方針，幫助我們設計出結構清晰、易於擴展且具備高維護性的軟體系統。透過遵循這些原則，我們可以減少耦合、提高代碼的靈活性與可重用性，從而構建更健壯的應用程序。
