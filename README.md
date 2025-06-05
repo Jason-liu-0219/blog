@@ -12,7 +12,7 @@
 
 先安装 `pnpm`
 
-```sh
+```sh 
 npm i -g pnpm
 ```
 
