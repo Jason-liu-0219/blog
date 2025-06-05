@@ -1,12 +1,2 @@
-# .github/pull_request_template.yml
-
-name: "Choose a template"
-description: "請選擇此 PR 的用途"
-body:
-  - type: markdown
-    attributes:
-      value: |
-        請選擇一個下方的模板：
-
-        - [feature](?template=feat-lib.md)
-        - [bugfix](?template=fix-lib.md)
+[TEMPLATE1](?template=feat-lib.md)
+[TEMPLATE2](?template=fix-app.md)
