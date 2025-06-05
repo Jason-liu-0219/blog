@@ -17,7 +17,7 @@ description: 默认支持流程图，tabs面板，待办列表，作品页面
 通过这个能力可以快速加入并定制属于自己的看板娘, 开启只需要为其传递一个 [配置选项](https://oml2d.com/options/Options.html) 即可
 :::
 
-以下是一个简单的使用示例，当模型加载成功时它将出现在您网站的左下角。
+以下是一个简单的使用示例，当模型加载成功时它将出现在您网站的左下角。 
 
 ```ts
 const blogTheme = getThemeConfig({
